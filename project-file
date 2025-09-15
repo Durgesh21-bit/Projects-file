@@ -19,7 +19,7 @@ pipeline {
        
           stage("Build Application"){
               steps {
-                     cd "project-file"
+                     sh 'ls -al Durgesh21-bit/Projects-file/project-file'
                      sh "mvn clean package"
               }
            }
